@@ -1,0 +1,34 @@
+Source: epics-pva
+Section: libdevel
+Priority: extra
+Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
+Build-Depends: debhelper (>= 9), epics-debhelper (>= 8.14~),
+               epics-dev,
+               epics-pvd-dev,
+Standards-Version: 3.9.6
+Homepage: http://epics-pvdata.sourceforge.net/
+Vcs-Git: https://github.com/epicsdeb/epics-pva.git
+Vcs-Browser: https://github.com/epicsdeb/epics-pva
+
+Package: epics-pva-dev
+Architecture: any
+Depends: libpvdata5.0.0+20160318 (= ${binary:Version}),
+         ${shlibs:Depends}, ${misc:Depends},
+         ${epics:Depends},
+Description: pvAccess protocol client and server library
+ pvAccess is a network protocol, and set of client/server libraries,
+ for self-assembling (no central name server) distributed
+ control systems.
+ .
+ This package contains headers and libraries needed at build time.
+
+Package: libpvaccess4.1.2+20160426
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: pvAccess protocol client and server library
+ pvAccess is a network protocol, and set of client/server libraries,
+ for self-assembling (no central name server) distributed
+ control systems.
+ .
+ This package contains runtime libraries
+
