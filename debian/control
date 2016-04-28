@@ -3,7 +3,7 @@ Section: libdevel
 Priority: extra
 Maintainer: Michael Davidsaver <mdavidsaver@gmail.com>
 Build-Depends: debhelper (>= 9), epics-debhelper (>= 8.16~),
-               dh-exec-epics,
+               dh-exec, dh-exec-epics,
                epics-dev,
                epics-pvd-dev,
 Standards-Version: 3.9.6
@@ -13,7 +13,7 @@ Vcs-Browser: https://github.com/epicsdeb/epics-pva
 
 Package: epics-pvatools
 Architecture: any
-Depends: libpvdata5.0.0+20160318 (= ${binary:Version}),
+Depends: libpvaccess4.1.2+20160426 (= ${binary:Version}),
          ${shlibs:Depends}, ${misc:Depends},
          ${epics:Depends},
 Description: pvAccess protocol client and server library
@@ -25,7 +25,7 @@ Description: pvAccess protocol client and server library
 
 Package: epics-pva-dev
 Architecture: any
-Depends: libpvdata5.0.0+20160318 (= ${binary:Version}),
+Depends: libpvaccess4.1.2+20160426 (= ${binary:Version}),
          epics-pvatools (= ${binary:Version}),
          ${shlibs:Depends}, ${misc:Depends},
          ${epics:Depends},

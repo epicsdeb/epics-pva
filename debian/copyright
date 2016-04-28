@@ -5,7 +5,7 @@ Source: http://epics-pvdata.sourceforge.net/
 
 Files: *
 Copyright:  Copyright 2016 Matej Sekoranja et al.
-License: BSD  
+License: BSDx
   Copyright (c) 2006-2015 Martin R. Kraimer
   Copyright (c) 2006 The University of Chicago, as Operator of Argonne
        National Laboratory.
@@ -103,7 +103,7 @@ License: BSD
   updates, enhancements, or modifications.
   .
   ________________________________________________________________________
-  
+  .
   This software is in part copyrighted by Diamond Light Source Limited (DLS)
   .
   In no event shall DLS be liable to any party for direct, indirect,
