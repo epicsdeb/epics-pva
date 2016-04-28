@@ -1,0 +1,4 @@
+usr/lib/epics/lib/linux-*
+usr/lib/epics/bin/linux-*
+usr/lib/epics/include
+usr/lib/epics/dbd

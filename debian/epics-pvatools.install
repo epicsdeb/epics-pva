@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+usr/lib/epics/bin/${EPICS_HOST_ARCH}/pvget usr/bin
+usr/lib/epics/bin/${EPICS_HOST_ARCH}/pvput usr/bin
+usr/lib/epics/bin/${EPICS_HOST_ARCH}/pvinfo usr/bin
+usr/lib/epics/bin/${EPICS_HOST_ARCH}/eget usr/bin
